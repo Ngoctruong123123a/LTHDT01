@@ -1,6 +1,7 @@
 package bai04.vidu1;
 import java.time.*;
 public class Nguoi {
+	//
 	private String hoten;
 	private int namsinh;
 	public Nguoi(String hoten, int namsinh) {

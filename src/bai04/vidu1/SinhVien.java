@@ -1,5 +1,5 @@
 package bai04.vidu1;
-
+//
 public class SinhVien {
     private String ten;
     private int namSinh;
