@@ -39,7 +39,7 @@ public class Meo extends DongVat {
 
     @Override
     public String toString() {
-        return "Mèo{" +
+        return "Meo{" +
                 "ten='" + getTen() + '\'' +
                 ", namsinh=" + getNamsinh() +
                 ", gioitinh='" + getGioitinh() + '\'' +

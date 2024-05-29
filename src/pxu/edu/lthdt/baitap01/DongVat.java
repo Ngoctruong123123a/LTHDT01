@@ -1,9 +1,6 @@
 package pxu.edu.lthdt.baitap01;
 
-import java.time.LocalDate;
-
 public class DongVat {
-
     private String ten;
     private int namsinh;
     private String gioitinh;
@@ -27,13 +24,7 @@ public class DongVat {
     }
 
     public void setNamsinh(int namsinh) {
-        LocalDate ngayhientai = LocalDate.now();
-        int namhientai = ngayhientai.getYear();
-        if(namsinh>namhientai && namsinh<1950){
-            System.out.println("Nam sinh khong phu hop");
-        }else {
-            this.namsinh = namsinh;
-        }        
+        this.namsinh = namsinh;
     }
 
     public String getGioitinh() {
@@ -46,7 +37,7 @@ public class DongVat {
 
     @Override
     public String toString() {
-        return "Động vật{" +
+        return "DongVat{" +
                 "ten='" + ten + '\'' +
                 ", namsinh=" + namsinh +
                 ", gioitinh='" + gioitinh + '\'' +

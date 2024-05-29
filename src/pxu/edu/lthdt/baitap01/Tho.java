@@ -39,7 +39,7 @@ public class Tho extends DongVat {
 
     @Override
     public String toString() {
-        return "Thỏ{" +
+        return "Tho{" +
                 "ten='" + getTen() + '\'' +
                 ", namsinh=" + getNamsinh() +
                 ", gioitinh='" + getGioitinh() + '\'' +
