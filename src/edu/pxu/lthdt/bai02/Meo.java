@@ -1,11 +1,11 @@
-package pxu.edu.lthdt.baitap01;
+package edu.pxu.lthdt.bai02;
 
 public class Meo extends DongVat {
 
     private int soluong;
     private String mausac;
     private String giong;
-
+//
     public Meo(String ten, int namsinh, String gioitinh, int soluong, String mausac, String giong) {
         super(ten, namsinh, gioitinh);
         this.soluong = soluong;
